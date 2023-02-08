@@ -53,7 +53,7 @@ double dthuc(m2c A, int n){
                     while (k < n && B[k][i] == 0) k++;
                     if (k==n) return 0; 
                     for (j = i; j < n; j++)		hvi(&B[i][j], &B[k][j]);              
-                    sign = -sign; //  khi doi cho 2 hàng cua 1 'det' thi 'det' doi dâu
+                    sign = -sign; //  khi doi cho 2 hÃ ng cua 1 'det' thi 'det' doi dÃ¢u
                 }
             for (j = i+1; j < n; j++)
                 {
@@ -70,7 +70,7 @@ int main(){
 	int n;
 	printf("Nhap kich thuoc MTV A cap n = ");	scanf("%d",&n);
 	nhap(A,n);	xuat(A,n); detA = dthuc(A,n);
-	printf("%.2lf",detA); xuat(A,n);
+	printf("%.2lf",detA);
 	
 	
 }
